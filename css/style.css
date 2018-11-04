@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: whitesmoke;
+    text: center;
+}
+body{
+    background: #31514f;
+}
+header{
+    height: 40%;
+    width: auto;
+    background: black;
+    
+}
+article{
+    height: 50%;
+    width: auto;
+    padding: 5px 50px 5px 50px;
+   
+ }
+ footer{
+     display: block;
+     height: 10%;
+     width: auto;
+     text-align: center;
+     padding-bottom: 5px;
+     background: black;
+     float: bottom;
+}
+ #copyright{
+     color: #182627;
+     font-size: medium;
+     padding: 5px 0 0 0;
+ }
+ #author{
+     color: brown;
+ }
+#computers{
+    height: 60%;
+    width: 30%;
+    margin-left: 10px;
+    border-radius: 50px;
+    background: #e3fcd0;
+    border: 7px solid darkgrey;
+    opacity: 0.5;
+}
+
+#computers:hover{
+    /* прозрачність*/
+    opacity: 1;
+}
+#phones{
+    height: 60%;
+    width: 30%;
+    margin-left: 40px;
+    border-radius: 50px;
+    background: #e3fcd0;
+    border: 7px solid darkgrey;
+    opacity: 0.5;
+}
+#phones:hover{
+    opacity: 1;
+}
+.image_comp_phone{
+    width: auto;
+    height: 500px;
+    text-align: center;
+    padding: 20px ;
+    opacity: 0.75;
+}
+
+.telephone{
+    width: 30px;
+    height: 30px;
+}
+.imageTehno {
+    width: 100%;
+    height: 170px;
+   /* background: blueviolet;*/
+}
+
+.buttons{
+    display: inline-block;
+    width: 50px;
+    height:50px;
+    margin-top: 10px;
+}
+.container {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.box {
+    position: relative;
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    width: 300px;
+    height: 450px;
+    padding: 5px;
+    border: 10px outset lightgray ;
+    border-radius: 15px;
+    background: antiquewhite;
+    opacity: 0.7;
+}
+
+img{
+    width: 300px;
+    height: 180px;
+}
+.product_text{
+    color: red;
+    font-size: 20px;
+}
+#menubar{
+    width: auto;
+    height: 46px;
+    padding: 20px;
+    background: #17191a;
+    
+}
+ul.menu{
+    float: right;
+   /* background: green;*/
+}
+ul.menu li {
+    float: left;
+    padding: 0 0 0 9px;
+    /* макрований список видаляємо точки */
+    list-style: none;
+    margin: 1px 2px 0 0;
+}
+ul.menu li a {
+    font: normal 150% 'Trebuchet MS', sans-serif;
+    /* неблочний елемент перетворює в блочний */
+    display: block;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    color: #fff;
+    /* видаляє підчеркування для ссилок*/
+    text-decoration: none;
+}
+ul.menu li.selected a{
+    color:#aeb002;
+}
+ul.menu li a:hover{
+    color: #b2a312;
+}
+
+#block_signin{
+    display: block;
+    width: 50%;
+    /*background: rosybrown;*/
+    padding: 10px;
+    float: right;
+}
+.sign{
+    /*background: orange;*/
+    padding-left: 50px;
+    
+}
+.sign a{
+    font: normal 150% 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper_sign{
+    vertical-align: center;
+    /* background: greenyellow;*/
+    width: 40%;
+    float: right;
+
+}
+
+
+
+
+
+
