@@ -48,7 +48,7 @@ article{
     opacity: 0.5;
 }
 
-#computers:hover{
+#computers: hover{
     /* прозрачність*/
     opacity: 1;
 }
@@ -61,7 +61,7 @@ article{
     border: 7px solid darkgrey;
     opacity: 0.5;
 }
-#phones:hover{
+#phones: hover{
     opacity: 1;
 }
 .image_comp_phone{
@@ -70,11 +70,6 @@ article{
     text-align: center;
     padding: 20px ;
     opacity: 0.75;
-}
-
-.telephone{
-    width: 30px;
-    height: 30px;
 }
 .imageTehno {
     width: 100%;
@@ -91,7 +86,7 @@ article{
 .container {
     display: block;
     width: 100%;
-    height: auto;
+    height: 350px;
     text-align: center;
     padding-bottom: 15px;
 }
@@ -121,8 +116,8 @@ img{
     width: auto;
     height: 46px;
     padding: 20px;
-    background: #17191a;
-    
+    background-color:  #262626;
+    background-image: linear-gradient(to bottom right, yellow, black );
 }
 ul.menu{
     float: right;
@@ -148,35 +143,35 @@ ul.menu li a {
 ul.menu li.selected a{
     color:#aeb002;
 }
-ul.menu li a:hover{
+ul.menu li a: hover{
     color: #b2a312;
 }
 
 #block_signin{
-    display: block;
     width: 50%;
-    /*background: rosybrown;*/
+    float: right;
+   /* background: yellow;*/
     padding: 10px;
-    float: right;
 }
-.sign{
-    /*background: orange;*/
-    padding-left: 50px;
-    
-}
-.sign a{
-    font: normal 150% 'Trebuchet MS', sans-serif;
-    color: #fff;
-    text-decoration: none;
-}
-
 .wrapper_sign{
-    vertical-align: center;
-    /* background: greenyellow;*/
-    width: 40%;
-    float: right;
+    /*background: green;*/
+    width: auto;
+    margin: 5px;
 
 }
+.sign a img{
+   /* background: red;*/
+    height: 5%;
+    width: 5%;
+    float: right;
+    margin-left: 10px;
+
+}
+
+
+
+
+
 
 
 
