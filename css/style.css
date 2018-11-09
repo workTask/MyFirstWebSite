@@ -146,6 +146,9 @@ ul.menu li.selected a{
 ul.menu li a: hover{
     color: #b2a312;
 }
+ul.menu li a h3:hover {
+ text-shadow: 5px 5px 5px blueviolet;
+}
 
 #block_signin{
     width: 50%;
